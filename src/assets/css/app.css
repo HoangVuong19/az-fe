@@ -24,21 +24,7 @@
    |
    */
  @import "./_colors.css";
- 
- /*
-   |--------------------------------------------------------------------------
-   | Fonts
-   |--------------------------------------------------------------------------
-   |
-   | Import all fonts used in the template, the font configuration can be
-   | seen in "tailwind.config.js".
-   |
-   | Please check this link for more details:
-   | https://tailwindcss.com/docs/theme
-   |
-   */
- @import "./fonts/_roboto.css";
- 
+
  /*
    |--------------------------------------------------------------------------
    | Mixins

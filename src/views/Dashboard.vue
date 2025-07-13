@@ -26,7 +26,7 @@ const checkHealth = async () => {
   status.value = 'init'
   try {
     const res = await healthcheckApi.healthcheck()
-    status.value = res.data.success ? 'ok' : 'fail'
+    status.value = res.data ? 'ok' : 'fail'
   } catch (e) {
     status.value = 'fail'
   }

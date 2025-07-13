@@ -1,5 +1,5 @@
 {
-  "name": "az-infra",
+  "name": "basesource-vue3",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -9,21 +9,22 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@azure/msal-browser": "^4.16.0",
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "@left4code/tw-starter": "^4.0.1",
     "@tailwindcss/forms": "^0.5.9",
     "axios": "^1.8.1",
+    "dotenv": "^16.5.0",
     "jsencrypt": "^3.3.2",
+    "otplib": "^12.0.1",
     "pinia": "^3.0.1",
     "vee-validate": "^4.15.0",
     "vue": "^3.5.13",
     "vue-i18n": "^10.0.5",
     "vue-router": "^4.5.0",
-    "vue3-toastify": "^0.2.8",
-    "dotenv": "^16.5.0",
-    "otplib": "^12.0.1"
+    "vue3-toastify": "^0.2.8"
   },
   "devDependencies": {
     "@playwright/test": "^1.51.1",
