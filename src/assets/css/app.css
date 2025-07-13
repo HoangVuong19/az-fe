@@ -1,0 +1,85 @@
+/*
+ |--------------------------------------------------------------------------
+ | TailwindCSS Directives
+ |--------------------------------------------------------------------------
+ |
+ | Import TailwindCSS directives and swipe out at build-time with all of
+ | the styles it generates based on your configured design system.
+ |
+ | Please check this link for more details:
+ | https://tailwindcss.com/docs/installation#include-tailwind-in-your-css
+ |
+ */
+ @import "./_tailwind.css";
+
+ /*
+   |--------------------------------------------------------------------------
+   | Colors
+   |--------------------------------------------------------------------------
+   |
+   | Configuration of the main and dark-mode colors.
+   |
+   | Please check this link for more details:
+   | https://tailwindcss.com/docs/customizing-colors#using-css-variables
+   |
+   */
+ @import "./_colors.css";
+ 
+ /*
+   |--------------------------------------------------------------------------
+   | Fonts
+   |--------------------------------------------------------------------------
+   |
+   | Import all fonts used in the template, the font configuration can be
+   | seen in "tailwind.config.js".
+   |
+   | Please check this link for more details:
+   | https://tailwindcss.com/docs/theme
+   |
+   */
+ @import "./fonts/_roboto.css";
+ 
+ /*
+   |--------------------------------------------------------------------------
+   | Mixins
+   |--------------------------------------------------------------------------
+   |
+   | Import helper mixins.
+   |
+   */
+ @import "@left4code/tw-starter/dist/css/mixins/_media.css";
+ 
+ /*
+   |--------------------------------------------------------------------------
+   | 3rd Party Libraries
+   |--------------------------------------------------------------------------
+   |
+   | Import 3rd party library CSS files.
+   |
+   */
+ @import "@left4code/tw-starter/dist/css/_breadcrumb.css";
+ @import "@left4code/tw-starter/dist/css/_accordion.css";
+ @import "@left4code/tw-starter/dist/css/_alert.css";
+ @import "@left4code/tw-starter/dist/css/_btn.css";
+ @import "@left4code/tw-starter/dist/css/_dropdown.css";
+ @import "@left4code/tw-starter/dist/css/_file.css";
+ @import "@left4code/tw-starter/dist/css/_form-reset.css";
+ @import "@left4code/tw-starter/dist/css/_form-check.css";
+ @import "@left4code/tw-starter/dist/css/_form-control.css";
+ @import "@left4code/tw-starter/dist/css/_form-help.css";
+ @import "@left4code/tw-starter/dist/css/_form-inline.css";
+ @import "@left4code/tw-starter/dist/css/_form-label.css";
+ @import "@left4code/tw-starter/dist/css/_form-select.css";
+ @import "@left4code/tw-starter/dist/css/_image-fit.css";
+ @import "@left4code/tw-starter/dist/css/_input-group.css";
+ @import "@left4code/tw-starter/dist/css/_intro.css";
+ @import "@left4code/tw-starter/dist/css/_modal.css";
+ @import "@left4code/tw-starter/dist/css/_pagination.css";
+ @import "@left4code/tw-starter/dist/css/_progress.css";
+ @import "@left4code/tw-starter/dist/css/_scrollbar.css";
+ @import "@left4code/tw-starter/dist/css/_tab.css";
+ @import "@left4code/tw-starter/dist/css/_table.css";
+ @import "@left4code/tw-starter/dist/css/_typing-dots.css";
+ @import "@left4code/tw-starter/dist/css/_zoom-in.css";
+ @import "@left4code/tw-starter/dist/css/_box.css";
+ 
